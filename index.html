@@ -281,6 +281,8 @@
       <li><strong>Notifications</strong> — to remind you, at most once a day, when saved words are
         due for review. Android asks you first; you can decline, or turn reminders off any
         time in Verso's Settings.</li>
+      <li><strong>Google Play billing</strong> — lets Verso hand an optional tip to the Google Play
+        Store app on your phone, which takes the payment. Verso never sees your payment details.</li>
       <li><strong>Run at startup</strong> and <strong>prevent phone from sleeping</strong> — used only
         by Android's standard background-task scheduler so that the daily reminder check still
         happens after your phone restarts. Neither grants access to any of your data.</li>
@@ -321,8 +323,17 @@
     <hr class="rule">
     <p>
       Verso does not share data with anyone, for a simple reason: it does not collect any
-      data to share. The app has no third-party integrations, no advertising network, no
+      data to share. Apart from handing optional tips to Google Play (below), the app has no third-party integrations, no advertising network, no
       analytics provider, and no cloud backend.
+    </p>
+    <p>
+      <strong>Optional tips.</strong> Everything in Verso is free. Settings &gt; Support Verso offers
+      optional tips, which unlock nothing. If you choose to tip, the payment is handled entirely by
+      Google Play, under Google's own terms and privacy policy, using the payment method in your Google
+      account. Verso receives no card, account or contact details and keeps no record of tips. To do
+      this, Verso includes Google's Play Billing library; because Verso has no internet permission,
+      neither Verso nor that library can send anything over the network — the Google Play Store app on
+      your phone handles the purchase.
     </p>
     <p>
       Verso's Bible texts, dictionaries, and word-study data are drawn from public domain and

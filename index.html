@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Privacy policy for Verso, a Bible reading and language-learning app for Android.">
+<meta name="description" content="Privacy policy for Verso, a Bible reading and language-learning app for Android, iPhone and iPad.">
 <title>Verso Privacy Policy</title>
 <style>
   :root {
@@ -229,20 +229,22 @@
   <header class="doc-head">
     <div class="wordmark">:Verso</div>
     <h1>Privacy Policy</h1>
-    <div class="meta">Effective and last updated: October 8, 2026</div>
+    <div class="meta">Effective and last updated: October 13, 2026</div>
   </header>
 
   <p class="lede">
     Verso is a Bible reading and language-learning app for Spanish, English, Haitian Creole,
-    Portuguese, Italian, German, and French. This policy explains, plainly, what the app does and
-    doesn't do with your information.
+    Portuguese, Italian, German, French, and Biblical Hebrew and Greek, for Android phones and for
+    iPhone and iPad. This policy explains, plainly, what the app does and doesn't do with your
+    information, on every device it runs on.
   </p>
 
   <div class="callout">
     <span class="label">In short</span>
-    <p>Verso collects no personal data, and has no way to. The app does not request access
-      to the internet, so there is nothing it could send anywhere, even if it tried. The only
-      permission it asks you for is to show review-reminder notifications, and you can say no.</p>
+    <p>Verso collects no personal data, and has no way to. The Android app does not request access
+      to the internet, and the iPhone and iPad app contains no code that connects to it, so there is
+      nothing it could send anywhere, even if it tried. The only permission it asks you for is to show
+      review-reminder notifications, and you can say no.</p>
     <p class="fact">Every word you look up, every verse you read, stays on your device.</p>
   </div>
 
@@ -271,21 +273,24 @@
     <p>
       This isn't just a policy — it's a technical fact. Verso's Android app manifest does not
       declare the <code>INTERNET</code> permission, which means the operating system does not
-      allow the app to open a network connection at all. There is no server Verso talks to,
-      because it was never built to talk to one.
+      allow the app to open a network connection at all. On iPhone and iPad, where apps don't
+      declare an internet permission, Verso simply contains no networking code. Either way, there is
+      no server Verso talks to, because it was never built to talk to one.
     </p>
     <p>
       The permissions Verso does use are all local to your device:
     </p>
     <ul class="plain">
       <li><strong>Notifications</strong> — to remind you, at most once a day, when saved words are
-        due for review. Android asks you first; you can decline, or turn reminders off any
-        time in Verso's Settings.</li>
-      <li><strong>Google Play billing</strong> — lets Verso hand an optional tip to the Google Play
-        Store app on your phone, which takes the payment. Verso never sees your payment details.</li>
-      <li><strong>Run at startup</strong> and <strong>prevent phone from sleeping</strong> — used only
-        by Android's standard background-task scheduler so that the daily reminder check still
-        happens after your phone restarts. Neither grants access to any of your data.</li>
+        due for review. Your phone asks you first (Android or iOS); you can decline, or turn
+        reminders off any time in Verso's Settings.</li>
+      <li><strong>In-app purchases</strong> — let Verso hand an optional tip to the store your
+        device uses: the Google Play Store app on Android, or Apple's App Store on iPhone and iPad.
+        The store takes the payment; Verso never sees your payment details.</li>
+      <li><strong>Run at startup</strong> and <strong>prevent phone from sleeping</strong> (Android
+        only) — used only by Android's standard background-task scheduler so that the daily reminder
+        check still happens after your phone restarts. Neither grants access to any of your data.
+        On iPhone and iPad, reminders are scheduled with the system's own local notifications.</li>
     </ul>
   </section>
 
@@ -294,7 +299,8 @@
     <hr class="rule">
     <p>
       To function as a reading and study app, Verso saves a small amount of information
-      locally on your device, using Android's standard private app-storage system. This
+      locally on your device, using the operating system's standard private app storage (Android's
+      private app storage, or Verso's own sandbox on iPhone and iPad). This
       information never leaves your device and is never seen by us:
     </p>
     <ul class="plain">
@@ -302,11 +308,11 @@
       <li>Words you've bookmarked to your personal vocabulary list, and your practice progress on them</li>
       <li>Your place in the Bible text, so the app can reopen where you left off</li>
       <li>App preferences — theme, font size, reading-aloud speed, and chosen Bible translations</li>
-      <li>Your daily reading streak, and the date its latest reward (loaf or manna) was celebrated</li>
+      <li>How many days you have read, and the date its latest reward (loaf or manna) was celebrated</li>
       <li>Whether review reminders are on, and the date the last one was shown</li>
     </ul>
     <p>
-      This data is sandboxed to Verso by Android itself; other apps cannot read it, and none
+      This data is sandboxed to Verso by the operating system itself; other apps cannot read it, and none
       of it is ever sent to us — we don't operate any server.
     </p>
     <p>
@@ -314,7 +320,10 @@
       account), Android may include Verso's settings and saved words in that backup, so they can
       be restored if you reinstall the app or move to a new phone. That backup is made and kept
       by Android under your account; Verso never sees it, and you can turn it off in your
-      phone's settings. Otherwise, uninstalling Verso deletes this information permanently.
+      phone's settings. On iPhone and iPad, iCloud Backup or a backup to your computer may likewise
+      include Verso's data; that backup is made and kept by Apple under your account or on your own
+      computer, and Verso never sees it. Otherwise, uninstalling Verso deletes this information
+      permanently.
     </p>
   </section>
 
@@ -323,7 +332,7 @@
     <hr class="rule">
     <p>
       Verso does not share data with anyone, for a simple reason: it does not collect any
-      data to share. Apart from handing optional tips to Google Play (below), the app has no third-party integrations, no advertising network, no
+      data to share. Apart from handing optional tips to Google Play or the App Store (below), the app has no third-party integrations, no advertising network, no
       analytics provider, and no cloud backend.
     </p>
     <p>
@@ -333,19 +342,23 @@
       account. Verso receives no card, account or contact details and keeps no record of tips. To do
       this, Verso includes Google's Play Billing library; because Verso has no internet permission,
       neither Verso nor that library can send anything over the network — the Google Play Store app on
-      your phone handles the purchase.
+      your phone handles the purchase. On iPhone and iPad, tips are handled the same way by Apple's
+      App Store, under Apple's own terms and privacy policy, using your Apple Account; Verso uses
+      Apple's built-in StoreKit for this and receives only whether the tip went through.
     </p>
     <p>
       Verso's Bible texts, dictionaries, and word-study data are drawn from public domain and
       openly-licensed sources (such as public-domain and Creative Commons Bible translations,
-      Wiktionary, PanLex, and Strong's Concordance). Using this content does not involve sending
+      Wiktionary, PanLex, Strong's Concordance, and Hebrew and Greek lexicons and texts from STEPBible
+      and the United Bible Societies). Using this content does not involve sending
       any of your data anywhere — it is bundled inside the app itself.
     </p>
     <p>
-      To pronounce words, Verso hands the word to the text-to-speech engine already installed
-      on your phone (such as Google's or your phone maker's). That engine is part of Android,
-      not of Verso, and works under its own provider's privacy terms; Verso itself sends nothing
-      over the network.
+      To pronounce words and read a chapter aloud, Verso hands the word or the Bible verse to the
+      text-to-speech engine already installed on your device (on Android, such as Google's or your
+      phone maker's; on iPhone and iPad, Apple's built-in voices). That engine is part of the
+      operating system, not of Verso, and works under its own provider's privacy terms; Verso itself
+      sends nothing over the network.
     </p>
   </section>
 
@@ -365,8 +378,8 @@
     <p>
       Since no information is transmitted off your device, there is no data-in-transit to
       secure and no server-side storage to protect. The information described above is kept
-      using the same operating-system-level protections Android applies to every app's
-      private storage.
+      using the same operating-system-level protections Android, iOS and iPadOS apply to every
+      app's private storage.
     </p>
   </section>
 
@@ -391,7 +404,7 @@
   </section>
 
   <footer class="doc-foot">
-    Verso — Bible reading and language learning for Spanish, English, Haitian Creole, Portuguese, Italian, German, and French.
+    Verso — Bible reading and language learning for Spanish, English, Haitian Creole, Portuguese, Italian, German, French, and Biblical Hebrew and Greek.
   </footer>
 </div>
 </body>
